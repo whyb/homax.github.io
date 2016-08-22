@@ -1,0 +1,156 @@
+body {
+    background-color: #fff;
+    color: #000;
+    padding: 10px
+}
+body * {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    font-size: 13pt!important;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus {
+    text-decoration: none
+}
+#GAuth-component h2 {
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    font: bold 18px;
+    color: #2bbaed;
+}
+#GAuth-component label {
+    font-weight: 400;
+    margin-bottom: 2px
+}
+#GAuth-component .textfield {
+    margin: 1em 0
+}
+.formTextField input[type],
+.formDropDown select,
+#GAuth-component .textfield input,
+#GAuth-content .formField input {
+    border: none;
+    border-bottom: 1px solid #dedede;
+    outline: none;
+    color: #000;
+    background: #fff;
+    width: 100%;
+    font-size: 13pt;
+    padding: 8px
+}
+#GAuth-component .textfield input:-webkit-autofill,
+#GAuth-content .formField input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+#GAuth-component a,
+#GAuth-content a {
+    color: #2bbaed
+}
+#GAuth-component #loginforgotpassword.login-forgot-password {
+    font-size: 13pt
+}
+#GAuth-component button,
+#GAuth-content button {
+    background: #2bbaed;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 10px;
+    margin: 8px auto;
+    display: block;
+    outline: none;
+    text-shadow: none;
+    height: 50px;
+    width: 100%
+}
+#GAuth-component .btn1,
+#GAuth-content .btn1 {
+    color: #fff
+}
+#GAuth-component .btn1:active,
+#GAuth-content .btn1 :active{
+    background: #4d4d4d;
+    color: #fff;
+}
+#GAuth-component #login-btn-cancel {
+    background: #fff;
+    border: 2pt solid gray;
+    color: gray
+}
+#GAuth-component #login-btn-cancel:active{
+    background: #4d4d4d;
+    border: none;
+    color: #fff
+}
+#GAuth-component #login-btn-cancel + p {
+    display: none
+}
+#GAuth-content #login-btn-cancel {
+    display: none!important
+}
+#GAuth-component #reset-password-loginID-errors {
+    padding: 0;
+    color: #fc113c;
+    background: 0
+}
+#GAuth-content {
+    margin: 0
+}
+#GAuth-component #login-btn-signin,
+#GAuth-component #login-btn-reset {
+    margin-top: 25px;
+}
+#GAuth-content hr {
+    background: none repeat scroll 0 0 #515151;
+    color: #515151
+}
+#GAuth-content label {
+    font-weight: 400;
+    margin-bottom: 5px
+}
+#GAuth-component .formField,
+#GAuth-content .formField {
+    width: 100%;
+    overflow: hidden;
+    float: none
+}
+#GAuth-content .createFormLabel {
+    float: none;
+    text-align: left;
+    width: 100%
+}
+#GAuth-content .leftPad200 {
+    padding-left: 0
+}
+#GAuth-content fieldset {
+    min-width: 0;
+    padding-right: 20px
+}
+#GAuth-content .createFormAlert {
+    padding-left: 0
+}
+#GAuth-content .createFormAlert .alert {
+    padding-left: 0
+}
+#GAuth-content .formTextField,
+#GAuth-content .formTextField.attention {
+    background: transparent;
+    padding: 3px 0;
+    margin: 1px 0
+}
+#GAuth-content .formTextField.attention .alert,
+#GAuth-content .formTextField.error .alert {
+    color: #fc113c;
+    background-image: none
+}
+#GAuth-component #login-state-default > h2 {
+    display: none
+}
+
